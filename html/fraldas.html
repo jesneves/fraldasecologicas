@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head id="imports"> </head>
+  <div class="head" id="header"></div>
+
+  <body>
+    <div>
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01" />
+        <div id="caption"></div>
+      </div>
+    </div>
+    <div class="menu"></div>
+    <div class="content">
+      <!-- <div class="filtro"></div> -->
+      <br />
+      <h4>Fraldas</h4>
+      <br />
+
+      <div class="products-one">
+        <div class="row">
+          <!-- slider -->
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-img">
+                <ul class="slider fraldas">
+                  <li>
+                    <input type="radio" id="slide1" name="slide1" checked />
+                    <label for="slide1"></label>
+                    <img
+                      id="myImg"
+                      onclick="modalMyScript()"
+                      class="materialboxed card-img-top"
+                      src="../img/fralda1.jpg"
+                      alt="Foto de fralda ecológica com estampa de dinossauro"
+                    />
+                  </li>
+                  <li>
+                    <input type="radio" id="slide2" name="slide1" checked />
+                    <label for="slide2"></label>
+                    <img
+                      id="myImg"
+                      class="materialboxed card-img-top"
+                      src="../img/fralda2.jpg"
+                      alt="Foto de fralda ecológica com estampa de dinossauro"
+                      onclick="modalMyScript()"
+                    />
+                  </li>
+                  <li>
+                    <input type="radio" id="slide3" name="slide1" checked />
+                    <label for="slide3"></label>
+                    <img
+                      id="myImg"
+                      onclick="modalMyScript()"
+                      class="materialboxed card-img-top"
+                      src="../img/fralda3.jpg"
+                      alt="Foto de fralda ecológica com estampa de dinossauro"
+                    />
+                  </li>
+                  <li>
+                    <input type="radio" id="slide4" name="slide1" checked />
+                    <label for="slide4"></label>
+                    <img
+                      id="myImg"
+                      onclick="modalMyScript()"
+                      class="materialboxed card-img-top"
+                      src="../img/fralda1.jpg"
+                      alt="Foto de fralda ecológica com estampa de dinossauro"
+                    />
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Aviãozinho</h5>
+                <p class="card-text">Fralda composta por...</p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- slider -->
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-img">
+                <ul class="slider fraldas">
+                  <li>
+                    <input type="radio" id="slide13" name="slide0" checked />
+                    <label for="slide13"></label>
+                    <img
+                      class="card-img-top"
+                      src="../img/fralda12.jpg"
+                      alt="Foto de fralda ecológica com estampa de dinossauro"
+                    />
+                  </li>
+                  <li>
+                    <input type="radio" id="slide14" name="slide0" checked />
+                    <label for="slide14"></label>
+                    <img
+                      class="card-img-top"
+                      src="../img/fralda11.jpg"
+                      alt="Foto de fralda ecológica com estampa de dinossauro"
+                    />
+                  </li>
+                  <li>
+                    <input type="radio" id="slide15" name="slide0" checked />
+                    <label for="slide15"></label>
+                    <img
+                      class="card-img-top"
+                      src="../img/fralda10.jpg"
+                      alt="Foto de fralda ecológica com estampa de dinossauro"
+                    />
+                  </li>
+                  <li>
+                    <input type="radio" id="slide16" name="slide0" checked />
+                    <label for="slide16"></label>
+                    <img
+                      class="card-img-top"
+                      src="../img/fralda9.jpg"
+                      alt="Foto de fralda ecológica com estampa de dinossauro"
+                    />
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Aviãozinho</h5>
+                <p class="card-text">Fralda composta por...</p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- slider -->
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-img">
+                <ul class="slider fraldas">
+                  <li>
+                    <input type="radio" id="slide5" name="slide2" checked />
+                    <label for="slide5"></label>
+                    <img
+                      class="card-img-top"
+                      src="../img/fralda5.jpg"
+                      alt="Foto de fralda ecológica com estampa de dinossauro"
+                    />
+                  </li>
+                  <li>
+                    <input type="radio" id="slide6" name="slide2" checked />
+                    <label for="slide6"></label>
+                    <img
+                      class="card-img-top"
+                      src="../img/fralda6.jpg"
+                      alt="Foto de fralda ecológica com estampa de dinossauro"
+                    />
+                  </li>
+                  <li>
+                    <input type="radio" id="slide7" name="slide2" checked />
+                    <label for="slide7"></label>
+                    <img
+                      class="card-img-top"
+                      src="../img/fralda13.jpg"
+                      alt="Foto de fralda ecológica com estampa de dinossauro"
+                    />
+                  </li>
+                  <li>
+                    <input type="radio" id="slide8" name="slide2" checked />
+                    <label for="slide8"></label>
+                    <img
+                      class="card-img-top"
+                      src="../img/fralda14.jpg"
+                      alt="Foto de fralda ecológica com estampa de dinossauro"
+                    />
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Moranguinho</h5>
+                <p class="card-text">Fralda composta por...</p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- slider -->
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-img">
+                <ul class="slider fraldas">
+                  <li>
+                    <input type="radio" id="slide9" name="slide3" checked />
+                    <label for="slide9"></label>
+                    <img
+                      class="card-img-top"
+                      src="../img/fralda9.jpg"
+                      alt="Foto de fralda ecológica com estampa de dinossauro"
+                    />
+                  </li>
+                  <li>
+                    <input type="radio" id="slide10" name="slide3" checked />
+                    <label for="slide10"></label>
+                    <img
+                      class="card-img-top"
+                      src="../img/fralda10.jpg"
+                      alt="Foto de fralda ecológica com estampa de dinossauro"
+                    />
+                  </li>
+                  <li>
+                    <input type="radio" id="slide11" name="slide3" checked />
+                    <label for="slide11"></label>
+                    <img
+                      class="card-img-top"
+                      src="../img/fralda11.jpg"
+                      alt="Foto de fralda ecológica com estampa de dinossauro"
+                    />
+                  </li>
+                  <li>
+                    <input type="radio" id="slide12" name="slide3" checked />
+                    <label for="slide12"></label>
+                    <img
+                      class="card-img-top"
+                      src="../img/fralda12.jpg"
+                      alt="Foto de fralda ecológica com estampa de dinossauro"
+                    />
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Aviãozinho</h5>
+                <p class="card-text">Fralda composta por...</p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- slider -->
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-img">
+                <ul class="slider fraldas">
+                  <li>
+                    <input type="radio" id="slide13" name="slide4" checked />
+                    <label for="slide13"></label>
+                    <img
+                      class="card-img-top"
+                      src="../img/fralda4.jpg"
+                      alt="Foto de fralda ecológica com estampa de dinossauro"
+                    />
+                  </li>
+                  <li>
+                    <input type="radio" id="slide14" name="slide4" checked />
+                    <label for="slide14"></label>
+                    <img
+                      class="card-img-top"
+                      src="../img/fralda3.jpg"
+                      alt="Foto de fralda ecológica com estampa de dinossauro"
+                    />
+                  </li>
+                  <li>
+                    <input type="radio" id="slide15" name="slide4" checked />
+                    <label for="slide15"></label>
+                    <img
+                      class="card-img-top"
+                      src="../img/fralda2.jpg"
+                      alt="Foto de fralda ecológica com estampa de dinossauro"
+                    />
+                  </li>
+                  <li>
+                    <input type="radio" id="slide16" name="slide4" checked />
+                    <label for="slide16"></label>
+                    <img
+                      class="card-img-top"
+                      src="../img/fralda1.jpg"
+                      alt="Foto de fralda ecológica com estampa de dinossauro"
+                    />
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Aviãozinho</h5>
+                <p class="card-text">Fralda composta por...</p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- slider -->
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-img">
+                <ul class="slider fraldas">
+                  <li>
+                    <input type="radio" id="slide17" name="slide5" checked />
+                    <label for="slide17"></label>
+                    <img
+                      class="card-img-top"
+                      src="../img/fralda4.jpg"
+                      alt="Foto de fralda ecológica com estampa de dinossauro"
+                    />
+                  </li>
+                  <li>
+                    <input type="radio" id="slide18" name="slide5" checked />
+                    <label for="slide18"></label>
+                    <img
+                      class="card-img-top"
+                      src="../img/fralda3.jpg"
+                      alt="Foto de fralda ecológica com estampa de dinossauro"
+                    />
+                  </li>
+                  <li>
+                    <input type="radio" id="slide19" name="slide5" checked />
+                    <label for="slide19"></label>
+                    <img
+                      class="card-img-top"
+                      src="../img/fralda2.jpg"
+                      alt="Foto de fralda ecológica com estampa de dinossauro"
+                    />
+                  </li>
+                  <li>
+                    <input type="radio" id="slide20" name="slide5" checked />
+                    <label for="slide20"></label>
+                    <img
+                      class="card-img-top"
+                      src="../img/fralda1.jpg"
+                      alt="Foto de fralda ecológica com estampa de dinossauro"
+                    />
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Aviãozinho</h5>
+                <p class="card-text">Fralda composta por...</p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <!-- <div class="button">
+            <a href="./products.html" class="waves-effect waves-light btn"
+              >button</a
+            >
+          </div> -->
+
+      <!-- The Modal -->
+    </div>
+
+    <div id="footer"></div>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-2.1.1.min.js"
+    ></script>
+
+    <script src="../js/jquery-3.5.1.js"></script>
+    <script src="../js/scripts.js"></script>
+  </body>
+</html>
